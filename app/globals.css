@@ -29,7 +29,7 @@
 
   --display: "Clash Display", "Space Grotesk", sans-serif;
   --body:    "General Sans", system-ui, sans-serif;
-  --mono:    var(--font-jetbrains-mono), ui-monospace, monospace;
+  --mono:    "JetBrains Mono", "SFMono-Regular", "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
 
   --maxw: 1180px;
   --gutter: clamp(20px, 5vw, 56px);
