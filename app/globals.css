@@ -147,7 +147,7 @@ img { max-width: 100%; display: block; }
 @media (prefers-reduced-motion: reduce){ .hero .status .pulse::after { animation: none; } }
 
 .hero h1 { font-size: clamp(48px, 9.5vw, 132px); font-weight: 600; line-height: 0.93; letter-spacing: -0.035em; margin-top: 26px; }
-.hero h1 .grad { background: linear-gradient(105deg, var(--accent), color-mix(in srgb, var(--accent) 55%, var(--ink))); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 .grad { background-image: linear-gradient(105deg, var(--accent), color-mix(in srgb, var(--accent) 55%, var(--ink))); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
 .hero .role { font-family: var(--mono); font-size: clamp(13px, 1.5vw, 16px); letter-spacing: 0.04em; color: var(--muted); margin-top: 24px; text-transform: uppercase; }
 .hero .pitch { font-size: clamp(18px, 2.1vw, 24px); color: var(--ink-2); max-width: 40ch; margin-top: 22px; line-height: 1.45; }
 .hero .pitch b { color: var(--ink); font-weight: 600; }
